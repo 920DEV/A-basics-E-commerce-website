@@ -6,9 +6,12 @@
   background: rgba(229, 241, 118, 0.3);
 }
 .container2{
+  display: flex;
   max-width: 440px;
-  padding: 0 20px;
-  margin: 170px auto;
+  min-height: calc(100vh- 10vh- 7vh);
+  justify-content: center;
+  align-items: center;
+  margin: 1px auto;
 }
 .wrapper{
   width: 100%;

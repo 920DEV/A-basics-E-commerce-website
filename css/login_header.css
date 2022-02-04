@@ -102,10 +102,11 @@ nav ul li a{
 }
 footer{
     height: 7vh;
+    width: 100vw;
     background-color: black;
     /* position: sticky;
     bottom: 0px; */
-    position:static;
-    bottom: 0vh;
+    position:absolute;
+    bottom: 1px;
     color: white;
 }
