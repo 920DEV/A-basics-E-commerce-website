@@ -72,7 +72,7 @@ form .row input::placeholder{
   margin: -8px 0 20px 0;
 }
 .wrapper form .pass a{
-  color:black;
+  color:#508ff5;
   font-size: 17px;
   text-decoration: none;
 }
@@ -97,7 +97,7 @@ form .button input:hover{
   font-size: 17px;
 }
 .wrapper form .signup-link a{
-  color: black;
+  color: #508ff5;
   text-decoration: none;
 }
 form .signup-link a:hover{
