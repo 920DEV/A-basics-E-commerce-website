@@ -1,0 +1,78 @@
+/* # Adding another css styleSheet.  */
+/* # To make the website responsive, we are using "media Querry", so that it can adapt width & height of smaller devices also. */
+
+@media screen and (max-width:1250px)  {
+    header{
+        height: fit-content;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .search_bar{
+        display: flex;
+        justify-content: center;
+        margin: 5px 0px;
+
+    }
+    /* # giving margin to the search bar  */
+    #search{
+        margin: auto 2px auto auto;
+    }
+
+    nav ul li{
+        width: 85px;
+        margin:1px 2px;
+    }
+    footer{
+        height: fit-content;
+      
+    }
+    footer p{
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width:500px) {
+    header{
+        background-color: black;
+    }
+    header{
+        width:100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li{
+        width: 81px;
+        margin:1px 0;
+    }
+    nav ul #contact_box{
+        width: 85px;
+    }
+    .slider img{
+        width: 300px;
+    }
+    nav ul li a{
+        font-size: small;
+    }
+    footer{
+        font-size:x-small
+    }
+
+    
+}
+/* @media screen and (min-width:1300) {
+    .search_bar{
+        margin-left: 20vw;
+    }
+    
+} */
+@keyframes Sliding_Animation{
+    0%{
+        
+    }
+    100%{
+        width:1000px;
+    }
+    
+}
