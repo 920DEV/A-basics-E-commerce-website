@@ -5,14 +5,19 @@
     header{
         height: fit-content;
     }
+    .logo{
+        margin: 2px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     nav{
         display: flex;
         flex-direction: column;
     }
     .search_bar{
         display: flex;
-        justify-content: center;
-        margin: 5px 0px;
+        align-items: center;
 
     }
     /* # giving margin to the search bar  */
@@ -37,10 +42,11 @@
         background-color: black;
     }
     header{
-        width:100%;
+        width:100vw;
         overflow: hidden;
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
     nav ul li{
         width: 81px;
@@ -67,12 +73,3 @@
     }
     
 } */
-@keyframes Sliding_Animation{
-    0%{
-        
-    }
-    100%{
-        width:1000px;
-    }
-    
-}

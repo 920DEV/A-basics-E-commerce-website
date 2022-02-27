@@ -8,6 +8,8 @@ header{
     width: 100%;
     display:flex;
     background-color: black;
+    opacity: 0.8;
+    background: linear-gradient(0.5);
     height: 10vh;
     align-items: center;
     padding: 5px;
@@ -23,17 +25,16 @@ nav{
     width: 165px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content:center;
     height: 10vh;
     background-color:white;
     border-radius: 5px;
 }
 .logo a{
     color:rebeccapurple;
-    font-family:'Neonderthaw', cursive;
-    font-size: 1.5rem;
-    font-weight: bold;
-    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    font-size: 2rem;
+    font-weight:bolder;
     text-decoration: none;
     
 }
@@ -79,6 +80,7 @@ nav ul li{
     list-style: none;
     width:7vw;
     padding:0vh 5px;
+    box-sizing: border-box;
    
     
     text-align: center  ;
@@ -88,7 +90,7 @@ li a:hover{
     color: white;
     width: 5vw;
     transition: 0.1s  ease-in-out;
-    padding:3px 4px;
+    padding:3px 7px;
     border:1.5px solid white;
     border-radius: 3px;
 }
@@ -98,15 +100,5 @@ li a:hover{
 nav ul li a{
     color:white;
     text-decoration:none;
-    font-size: large;
-}
-footer{
-    height: 7vh;
-    width: 100vw;
-    background-color: black;
-    /* position: sticky;
-    bottom: 0px; */
-    position:fixed;
-    bottom: 1px;
-    color: white;
+    font-size: medium;
 }
