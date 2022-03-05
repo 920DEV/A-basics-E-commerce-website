@@ -143,6 +143,7 @@ nav ul li a{
 .slider img{
     margin: 2px;
     color: black;
+    opacity: 0.6;
 }
 
 .product{

@@ -18,9 +18,8 @@
     .search_bar{
         display: flex;
         align-items: center;
-
     }
-    /* # giving margin to the search bar  */
+        /* # giving margin to the search bar  */
     #search{
         margin: auto 2px auto auto;
     }
@@ -47,10 +46,14 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
+
+
     }
     nav ul li{
         width: 81px;
         margin:1px 0;
+
     }
     nav ul #contact_box{
         width: 85px;
